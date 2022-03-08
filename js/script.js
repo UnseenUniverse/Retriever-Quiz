@@ -11,48 +11,23 @@ var energySelection = document.getElementsByName("energy");
 var personalitySelection = document.getElementsByName("personality");
 
 function furTotal(){
-    if(furSelection[0].checked){
-        fur = 1;
-    }
-    else{
-        fur = 0;
-    }
+    fur = furSelection[0].checked ? 1 : 0;
 }
 
 function colorTotal(){
-    if(colorSelection[0].checked){
-        color = 1;
-    }
-    else{
-        color = 0;
-    }
+    color = colorSelection[0].checked ? 1 : 0;
 }
 
 function sizeTotal(){
-    if(sizeSelection[0].checked){
-        size = 0;
-    }
-    else{
-        size = 1;
-    }
+    size = sizeSelection[0].checked ? 0 : 1;
 }
 
 function energyTotal(){
-    if(energySelection[0].checked){
-        energy = 0;
-    }
-    else{
-        energy = 1;
-    }
+    energy = energySelection[0].checked ? 0 : 1;
 }
 
 function personalityTotal(){
-    if(personalitySelection[0].checked){
-        personality = 0;
-    }
-    else{
-        personality = 1;
-    }
+    personality = personalitySelection[0].checked ? 0 : 1;
 }
 
 function quizTotal(){
