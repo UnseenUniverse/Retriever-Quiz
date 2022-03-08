@@ -1,14 +1,14 @@
-var total;
-var fur;
-var color;
-var size;
-var energy;
-var personality; 
-var furSelection = document.getElementsByName("fur");
-var colorSelection = document.getElementsByName("color");
-var sizeSelection = document.getElementsByName("size");
-var energySelection = document.getElementsByName("energy");
-var personalitySelection = document.getElementsByName("personality");
+let total;
+let fur;
+let color;
+let size;
+let energy;
+let personality; 
+const furSelection = document.getElementsByName("fur");
+const colorSelection = document.getElementsByName("color");
+const sizeSelection = document.getElementsByName("size");
+const energySelection = document.getElementsByName("energy");
+const personalitySelection = document.getElementsByName("personality");
 
 function furTotal(){
     fur = furSelection[0].checked ? 1 : 0;
