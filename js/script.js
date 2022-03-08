@@ -4,11 +4,11 @@ let color;
 let size;
 let energy;
 let personality; 
-let furSelection = document.getElementsByName("fur");
-let colorSelection = document.getElementsByName("color");
-let sizeSelection = document.getElementsByName("size");
-let energySelection = document.getElementsByName("energy");
-let personalitySelection = document.getElementsByName("personality");
+const furSelection = document.getElementsByName("fur");
+const colorSelection = document.getElementsByName("color");
+const sizeSelection = document.getElementsByName("size");
+const energySelection = document.getElementsByName("energy");
+const personalitySelection = document.getElementsByName("personality");
 
 function furTotal(){
     fur = furSelection[0].checked ? 1 : 0;
