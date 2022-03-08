@@ -1,75 +1,75 @@
 #Golden {
-    display: none;
+  display: none;
 }
 
 #Labrador {
-    display: none;
+  display: none;
 }
 
-#retrieverQuiz{
-    display: block;
+#retrieverQuiz {
+  display: block;
 }
 
-#retrieverQuiz{
-    display: block;
+#retrieverQuiz {
+  display: block;
 }
 
 #foot {
-    text-align: center;
-    color: rgba(222, 184, 65, 1);
-    font-weight: bold;
+  text-align: center;
+  color: rgba(222, 184, 65, 1);
+  font-weight: bold;
 }
 
 .box {
-    width: 80%;
-    height: 80%;
-    border: 10px solid rgba(222, 158, 54, 1);
-    background-color: rgba(109, 106, 117, 1);
-    margin: 2px;
-    font-family: arial;
-    text-align: center;
+  width: 80%;
+  height: 80%;
+  border: 10px solid rgba(222, 158, 54, 1);
+  background-color: rgba(109, 106, 117, 1);
+  margin: 2px;
+  font-family: arial;
+  text-align: center;
 }
-  
+
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-    background-color: rgba(55, 50, 62, 1);
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(55, 50, 62, 1);
+  justify-content: center;
 }
 
 h1 {
-    text-align: center;
-    color: rgba(222, 184, 65, 1);
-    font-weight: bolder;
+  text-align: center;
+  color: rgba(222, 184, 65, 1);
+  font-weight: bolder;
 }
 
 h2 {
-    text-align: center;
-    color: rgba(222, 184, 65, 1);
-    font-weight: bold;
+  text-align: center;
+  color: rgba(222, 184, 65, 1);
+  font-weight: bold;
 }
 
 h3 {
-    text-align: center;
-    color: rgba(222, 184, 65, 1);
-    font-weight: bold;
+  text-align: center;
+  color: rgba(222, 184, 65, 1);
+  font-weight: bold;
 }
 
 h4 {
-    text-align: center;
-    color: rgba(222, 184, 65, 1);
-    font-weight: bold;
+  text-align: center;
+  color: rgba(222, 184, 65, 1);
+  font-weight: bold;
 }
 
 p {
-    text-align: center;
-    color: rgba(222, 184, 65, 1);
-    font-weight: bold;
+  text-align: center;
+  color: rgba(222, 184, 65, 1);
+  font-weight: bold;
 }
 
 img {
-    width: 80%;
+  width: 80%;
 }
