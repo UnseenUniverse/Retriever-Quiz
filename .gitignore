@@ -1,4 +1,5 @@
 ﻿### ADDITIIONAL ###
+/.idea
 .idea/**/discord.xml
 .idea/**/projectSettingsUpdater.xml
 .idea/**/vcs.xml
