@@ -1,11 +1,5 @@
 ﻿### ADDITIIONAL ###
-/.idea
-.idea/**/discord.xml
-.idea/**/projectSettingsUpdater.xml
-.idea/**/vcs.xml
-.idea/**/misc.xml
-.idea/**/indexLayout.xml
-.idea/**/encodings.xml
+# Add any needed Files and Directories until later organization can be done
 
 ### Rider ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -17,6 +11,13 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/discord.xml
+.idea/**/projectSettingsUpdater.xml
+.idea/**/vcs.xml
+.idea/**/misc.xml
+.idea/**/indexLayout.xml
+.idea/**/encodings.xml
+/.idea
 
 # AWS User-specific
 .idea/**/aws.xml
