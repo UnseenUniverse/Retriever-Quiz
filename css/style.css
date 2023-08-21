@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,slnt,wght@8..144,-10,200;8..144,0,300;8..144,0,500;8..144,0,600;8..144,0,800&display=swap');
+
 #Golden {
   display: none;
 }
@@ -26,7 +28,7 @@
   border: 10px solid rgba(222, 158, 54, 1);
   background-color: rgba(109, 106, 117, 1);
   margin: 2px;
-  font-family: ui-sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   text-align: center;
 }
 
@@ -43,31 +45,33 @@
 h1 {
   text-align: center;
   color: rgba(222, 184, 65, 1);
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 h2 {
   text-align: center;
   color: rgba(222, 184, 65, 1);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h3 {
   text-align: center;
   color: rgba(222, 184, 65, 1);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h4 {
   text-align: center;
   color: rgba(222, 184, 65, 1);
-  font-weight: bold;
+  font-weight: 200;
+  font-style: oblique 10deg;
 }
 
 p {
   text-align: center;
   color: rgba(222, 184, 65, 1);
-  font-weight: bold;
+  font-weight: 200;
+  font-style: oblique 10deg;
 }
 
 img {
