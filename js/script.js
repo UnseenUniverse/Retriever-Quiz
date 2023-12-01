@@ -30,6 +30,10 @@ function personalityTotal () {
   personality = personalitySelection[0].checked ? 0 : 1
 }
 
+function refreshPage(){
+  window.location.reload();
+}
+
 function quizTotal () {
   total = fur + color + size + energy + personality
   if (total >= 3) {
