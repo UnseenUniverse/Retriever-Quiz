@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.4.1"
-  },
-  "dependencies": {
-    "@headlessui/react": "^1.7.18"
-  }
-}
