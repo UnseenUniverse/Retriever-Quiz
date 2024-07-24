@@ -36,77 +36,92 @@
         out!
       </h2>
     </header>
-    <form class="box" id="retrieverQuiz">
-      <h3>Do You Prefer Dogs with Long Fur or Short Fur?</h3>
-      <h4>Both Breeds Need Regular Grooming and shed year round.</h4>
-      <label>
-        <input type="radio" name="fur" value="lab" />
-      </label>Short Fur Please. <br />
-      <label>
-        <input type="radio" name="fur" value="gold" />
-      </label>Long is the way to go.
-      <br />
 
-      <h3>Do you want a dog with black or brown coloring?</h3>
-      <h4>
-        Golden Retrievers are not just gold! They can be seen with a range of
-        cream to red coloring.
-      </h4>
-      <label>
-        <input type="radio" name="color" value="lab" />
-      </label>Yes, I don't want my
-      options limited. <br />
-      <label>
-        <input type="radio" name="color" value="gold" />
-      </label>No, I love the color gold.
-      <br />
+    <form class="box row g-5" id="retrieverQuiz">
+      <div class="my-3">
+        <h3>Do You Prefer Dogs with Long Fur or Short Fur?</h3>
+        <h4>Both Breeds Need Regular Grooming and shed year round.</h4>
+        <div class="my-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="fur" value="lab" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault1">Short Fur Please.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="fur" value="gold" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault2">Long is the way to go.</label>
+          </div>
+        </div>
 
-      <h3>
-        Golden Retrievers on average are slightly smaller than Labrador
-        Retrievers! Do you want a Smaller or Bigger Dog?
-      </h3>
-      <h4>
-        Fun Fact! Golden Retrievers were originally bred to retrieve waterfowl
-        while Labrador Retrievers were originally bred to help fishermen
-        retrieve nets and haul gear.
-      </h4>
-      <label>
-        <input type="radio" name="size" value="gold" />
-      </label>Smaller is great. <br />
-      <label>
-        <input type="radio" name="size" value="lab" />
-      </label>The bigger, the better.
-      <br />
+        <h3>Do you want a dog with black or brown coloring?</h3>
+        <h4>
+          Golden Retrievers are not just gold! They can be seen with a range of
+          cream to red coloring.
+        </h4>
+        <div class="my-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" value="lab" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault3">Yes, I don't want my options limited.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" value="gold" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault4">No, I love the color gold.</label>
+          </div>
+        </div>
 
-      <h3>High or Medium Energy?</h3>
-      <h4>
-        Golden Retrievers are the 3rd smartest breed of dog. Right behind the
-        Border Collie and Poodle. Labradors are the 4th smartest breed.
-      </h4>
-      <label>
-        <input type="radio" name="energy" value="gold" />
-      </label>Medium Energy is enough
-      for me. <br />
-      <label>
-        <input type="radio" name="energy" value="lab" />
-      </label>Bring on the High Energy.
-      <br />
+        <h3>
+          Golden Retrievers on average are slightly smaller than Labrador
+          Retrievers! Do you want a Smaller or Bigger Dog?
+        </h3>
+        <h4>
+          Fun Fact! Golden Retrievers were originally bred to retrieve waterfowl
+          while Labrador Retrievers were originally bred to help fishermen
+          retrieve nets and haul gear.
+        </h4>
+        <div class="my-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="size" value="gold" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault5">Smaller is great.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="size" value="lab" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault6">The bigger, the better.</label>
+          </div>
+        </div>
 
-      <h3>
-        Would you want a dog with a or rambunctious and outgoing personality or
-        a sensitive and docile personality?
-      </h3>
-      <h4>Both breeds can be great service and therapy dogs.</h4>
-      <label>
-        <input type="radio" name="personality" value="gold" />
-      </label>Sensitive and docile
-      sounds very sweet. <br />
-      <label>
-        <input type="radio" name="personality" value="lab" />
-      </label>Rambunctious and
-      outgoing sounds like a lot of fun. <br />
+        <h3>High or Medium Energy?</h3>
+        <h4>
+          Golden Retrievers are the 3rd smartest breed of dog. Right behind the
+          Border Collie and Poodle. Labradors are the 4th smartest breed.
+        </h4>
+          <div class="my-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="energy" value="gold" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault7">The bigger, the better.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="energy" value="lab" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault8">Bring on the High Energy.</label>
+          </div>
+        </div>
 
-      <input class="btn btn-light" type="button" value="SUBMIT" id="submit" />
+        <h3>
+          Would you want a dog with a or rambunctious and outgoing personality or
+          a sensitive and docile personality?
+        </h3>
+        <h4>Both breeds can be great service and therapy dogs.</h4>
+
+        <div class="my-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="personality" value="gold" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault9">Sensitive and docile sounds very sweet.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="personality" value="lab" id="Radio" />
+            <label class="form-check-label" for="flexRadioDefault10">Rambunctious and outgoing sounds like a lot of fun.</label>
+          </div>
+        </div>
+        <input class="btn btn-light" type="button" value="SUBMIT" id="submit" />
+      </div>
     </form>
     <div class="box" id="Golden">
       <h2>Golden Retrievers are a great fit for you!</h2>

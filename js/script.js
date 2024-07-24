@@ -32,6 +32,11 @@ function personalityTotal () {
 
 function refreshPage(){
   window.location.reload();
+  /* Unchecking Radio Button Logic??? Maybe???
+  var rad = document.getElementById('Radio');
+  for(var i=0;i<rad.length;i++)
+    rad[i].checked = false;
+  */
 }
 
 function quizTotal () {
